@@ -6,6 +6,8 @@ public class NodeChapter {
 	private int height;
 	private int words;
 	private NodeChapter nextChapter;
+	private Key key;
+	private Node left, right; // Note: this is not final, and i will work on this in the morning
 	
 	public NodeChapter(String title, BST chapter, int height, int words, NodeChapter nextChapter) {
 		this.title = title;
